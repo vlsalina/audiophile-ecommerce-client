@@ -12,7 +12,7 @@ const Recommended = ({ recommended, navigate }) => {
     let asyncCaller = async () => {
       try {
         await axios
-          .get(`http://localhost:4242/api/product/getAllProducts`)
+          .get(`${process.env.REACT_APP_SERVER_URL}/api/product/getAllProducts`)
           .then((result) => setProducts(result.data))
           .catch((error) => console.log(error));
       } catch (error) {}
@@ -26,7 +26,7 @@ const Recommended = ({ recommended, navigate }) => {
   const toProductPage = (slug) => {
     if (products) {
       let item = data.find((x) => x.slug === slug);
-      window.location.href = `http://localhost:3000/product/${item.id}`;
+      window.location.href = `${process.env.REACT_APP_CLIENT_URL}/product/${item.id}`;
     } else {
       navigate("/");
     }

@@ -10,8 +10,6 @@ import LoadingBox from "./components/loading/LoadingBox";
 import SuccessScreen from "./screens/SuccessScreen";
 import Test from "./screens/Test";
 
-require("dotenv").config();
-
 function App() {
   return (
     <Router>
