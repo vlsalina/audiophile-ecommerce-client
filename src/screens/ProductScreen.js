@@ -15,7 +15,7 @@ const ProductScreen = () => {
     const asyncCaller = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:4242/api/product/getProduct/${id}`
+          `${process.env.SERVER_URL}/api/product/getProduct/${id}`
         );
         setProduct(data);
       } catch (error) {

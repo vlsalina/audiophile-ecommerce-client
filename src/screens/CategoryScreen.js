@@ -28,7 +28,7 @@ const CategoryScreen = () => {
     const asyncCaller = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:4242/api/product/getProducts/${zone}`
+          `${process.env.SERVER_URL}/api/product/getProducts/${zone}`
         );
         setDataset(data);
       } catch (error) {
