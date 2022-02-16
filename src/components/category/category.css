@@ -1,0 +1,139 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-card {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.featured-img {
+  object-fit: contain;
+}
+
+.featured-first {
+  margin-top: 64px;
+}
+
+.category-header {
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.isNew {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #d87d4a;
+}
+
+.product-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* featured */
+.featured-img-mobile {
+  width: 100%;
+  display: block;
+}
+.featured-img-tablet {
+  display: none;
+}
+.featured-img-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  /* category-content */
+  .category-content {
+    padding: 0 10%;
+  }
+
+  /* featured */
+  .featured-img-mobile {
+    display: none;
+  }
+  .featured-img-tablet {
+    width: 150%;
+    display: block;
+  }
+  .featured-img-desktop {
+    display: none;
+  }
+
+  /* featured-content */
+  .featured-content {
+    padding: 0 10%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* featured */
+  .featured-img-mobile {
+    display: none;
+  }
+  .featured-img-tablet {
+    display: none;
+  }
+  .featured-img-desktop {
+    display: block;
+  }
+
+  .featured-card {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .featured-content {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-name,
+  .product-desc {
+    text-align: left;
+  }
+
+  .even {
+    flex-direction: row;
+  }
+
+  .odd {
+    flex-direction: row-reverse;
+  }
+
+  .featured-img,
+  .featured-content {
+    width: 50%;
+  }
+}

@@ -1,0 +1,12 @@
+.cart-set-qty {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.cart-set-qty-btn {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  opacity: 0.25;
+}

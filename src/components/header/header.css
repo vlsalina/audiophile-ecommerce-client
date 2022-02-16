@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding: 32px 24px;
+  align-items: center;
+}
+
+.header > div > button {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+.header-responsive-logo {
+  display: block;
+}
+
+@media only screen and (min-width: 1280px) {
+  .header {
+    padding: 32px 10%;
+  }
+
+  .header-responsive-logo {
+    display: none;
+  }
+}

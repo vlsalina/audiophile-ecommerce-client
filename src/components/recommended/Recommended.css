@@ -1,0 +1,92 @@
+.recommended {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.recommended-content {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.857143px;
+  text-transform: uppercase;
+}
+
+.recommended-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 56px;
+  overflow: hidden;
+}
+
+.recommended-btn {
+  margin-top: 32px;
+}
+
+.recommended-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.recommended-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* recommended-img- [device] */
+.recommended-img-mobile {
+  display: block;
+}
+.recommended-img-tablet {
+  display: none;
+}
+.recommended-img-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  .recommended {
+    margin-top: 120px;
+  }
+
+  .recommended-list {
+    width: 100%;
+    display: flex;
+  }
+
+  .recommended-products {
+    width: 33.33%;
+  }
+
+  /* recommended-img- [device] */
+  .recommended-img-mobile {
+    display: none;
+  }
+  .recommended-img-tablet {
+    display: block;
+  }
+  .recommended-img-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* recommended-img- [device] */
+  .recommended-img-mobile {
+    display: none;
+  }
+  .recommended-img-tablet {
+    display: none;
+  }
+  .recommended-img-desktop {
+    display: block;
+  }
+}

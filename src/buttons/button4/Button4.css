@@ -1,0 +1,10 @@
+.shop {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.shop:hover {
+  color: #d87d4a;
+}

@@ -1,0 +1,11 @@
+.clear {
+  background-color: #fff;
+  color: #000;
+  opacity: 0.5;
+  width: auto;
+  height: auto;
+}
+
+.clear:hover {
+  color: #d87d4a;
+}

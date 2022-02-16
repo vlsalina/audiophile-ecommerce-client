@@ -1,0 +1,432 @@
+.hero {
+  width: 100%;
+  object-fit: cover;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.to-shop-btn {
+  border: none;
+}
+
+.featured-wrapper {
+  margin-bottom: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-product-wrapper {
+  border-radius: 8px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  width: 100%;
+  overflow: hidden;
+}
+
+.font-white {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 24px;
+}
+
+.featured-zx9 {
+  position: relative;
+  background-color: #d87d4a;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.featured-zx9-speakers {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 50%;
+  object-fit: contain;
+}
+
+.circles {
+  width: 100%;
+  object-fit: contain;
+}
+
+.featured-zx7 {
+  position: relative;
+}
+
+.featured-zx7-speakers {
+  width: 100%;
+  object-fit: contain;
+}
+
+.featured-zx7-speakers-info {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin: 0 25.5px;
+}
+
+.featured-yx1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-yx1-earphones {
+  width: 100%;
+  object-fit: contain;
+}
+
+.featured-yx1-content {
+  margin: 0 25.5px;
+}
+
+.home-new {
+  position: relative;
+  width: 100vw;
+}
+
+.home-new-content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-content {
+  padding: 0 8%;
+}
+
+/* hero image */
+.hero-mobile {
+  display: block;
+}
+.hero-tablet {
+  display: none;
+}
+.hero-desktop {
+  display: none;
+}
+
+/* zx9 speakers image */
+.zx9-mobile {
+  display: block;
+}
+.zx9-tablet {
+  display: none;
+}
+.zx9-desktop {
+  display: none;
+}
+
+/* zx7 speakers image */
+.zx7-mobile {
+  display: block;
+}
+.zx7-tablet {
+  display: none;
+}
+.zx7-desktop {
+  display: none;
+}
+
+/* yx1 speakers image */
+.yx1-mobile {
+  display: block;
+}
+.yx1-tablet {
+  display: none;
+}
+.yx1-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  /* home-content */
+  .home-content {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  /* featured-product-wrapper */
+  .featured-yx1 {
+    flex-direction: row;
+  }
+
+  .featured-yx1-earphones,
+  .featured-yx1-content {
+    width: 50%;
+  }
+
+  .featured-yx1-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* hero image */
+  .hero-mobile {
+    display: none;
+  }
+  .hero-tablet {
+    display: block;
+  }
+  .hero-desktop {
+    display: none;
+  }
+
+  /* zx9 speakers image */
+  .zx9-mobile {
+    display: none;
+  }
+  .zx9-tablet {
+    display: block;
+  }
+  .zx9-desktop {
+    display: none;
+  }
+
+  /* zx7 speakers image */
+  .zx7-mobile {
+    display: none;
+  }
+  .zx7-tablet {
+    display: block;
+  }
+  .zx7-desktop {
+    display: none;
+  }
+
+  /* yx1 speakers image */
+  .yx1-mobile {
+    display: none;
+  }
+  .yx1-tablet {
+    display: block;
+  }
+  .yx1-desktop {
+    display: none;
+  }
+
+  /* featured-zx9 */
+  .featured-product-wrapper {
+    padding: 0;
+  }
+
+  .featured-zx9 {
+    padding: 50px 0;
+    background-color: #d87d4a;
+  }
+
+  .font-white {
+    width: 65%;
+  }
+
+  .featured-zx9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .zx9-tablet {
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%) scale(0.75);
+  }
+
+  .circles {
+    width: 50%;
+    position: relative;
+    left: 0%;
+    transform: translate(0%, 0%) scale(3);
+    z-index: 0;
+  }
+
+  .font-white div {
+    z-index: 1;
+  }
+
+  .zx9-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 58px;
+    margin-bottom: 1rem;
+    /* or 104% */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .zx9-btn-wrapper {
+    margin-top: 40px;
+  }
+
+  .home-new-content-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 58px;
+    /* or 104% */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .home-new-btn-wrapper {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* featured-product-wrapper */
+  .featured-product-wrapper {
+    width: 100%;
+  }
+
+  /* hero image */
+  .hero-mobile {
+    display: none;
+  }
+  .hero-tablet {
+    display: none;
+  }
+  .hero-desktop {
+    display: block;
+  }
+
+  /* zx9 speakers image */
+  .zx9-mobile {
+    display: none;
+  }
+  .zx9-tablet {
+    display: none;
+  }
+  .zx9-desktop {
+    display: block;
+  }
+
+  /* zx7 speakers image */
+  .zx7-mobile {
+    display: none;
+  }
+  .zx7-tablet {
+    display: none;
+  }
+  .zx7-desktop {
+    display: block;
+  }
+
+  /* yx1 speakers image */
+  .yx1-mobile {
+    display: none;
+  }
+  .yx1-tablet {
+    display: none;
+  }
+  .yx1-desktop {
+    display: block;
+  }
+
+  .font-white {
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 10%;
+  }
+
+  .zx9-desc {
+    text-align: left;
+  }
+
+  .zx9-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 58px;
+    /* or 104% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  /* circles */
+  .circles {
+    left: 0;
+    transform: translate(0, 0) scale(2);
+  }
+
+  /* featured-zx9 */
+  .featured-zx9-speakers {
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%) scale(0.75);
+  }
+
+  .featured-zx9 {
+    display: flex;
+  }
+
+  .font-white,
+  .circles {
+    width: 50%;
+  }
+
+  .zx9-name {
+    text-align: left;
+  }
+
+  .featured-product-wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-new-content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%, 0%);
+    text-align: left;
+    width: 30%;
+    transform: translate(0, -50%);
+  }
+
+  .home-new-content-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 58px;
+    /* or 104% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    text-align: left;
+  }
+
+  .home-new-btn-wrapper {
+    margin-top: 40px;
+  }
+}

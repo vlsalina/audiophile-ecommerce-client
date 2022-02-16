@@ -1,0 +1,11 @@
+.outline {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.outline:hover {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+}

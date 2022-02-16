@@ -1,0 +1,13 @@
+ul.socialLinks {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  ul.socialLinks {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+}

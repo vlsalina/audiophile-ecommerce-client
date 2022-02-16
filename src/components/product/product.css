@@ -1,0 +1,252 @@
+.product {
+  position: relative;
+  width: 100vw;
+  padding: 0 24px;
+}
+
+.product-img-wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product-img-wrapper:last-child {
+  margin-bottom: 120px;
+}
+
+.product-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.select-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 31px 0 88px 0;
+}
+
+.product-qty {
+  font-weight: bold;
+  color: #d87d4a;
+}
+
+.product-img {
+  border-radius: 8px;
+}
+
+.product-features {
+  margin-bottom: 120px;
+}
+
+.in-the-box {
+  margin-bottom: 88px;
+}
+
+/* product-img-main */
+.product-img-main-mobile {
+  display: block;
+}
+.product-img-main-tablet {
+  display: none;
+}
+.product-img-main-desktop {
+  display: none;
+}
+
+/* product-img-first */
+.product-img-first-mobile {
+  display: block;
+}
+.product-img-first-tablet {
+  display: none;
+}
+.product-img-first-desktop {
+  display: none;
+}
+
+/* product-img-second */
+.product-img-second-mobile {
+  display: block;
+}
+.product-img-second-tablet {
+  display: none;
+}
+.product-img-second-desktop {
+  display: none;
+}
+
+/* product-img-third */
+.product-img-third-mobile {
+  display: block;
+}
+.product-img-third-tablet {
+  display: none;
+}
+.product-img-third-desktop {
+  display: none;
+}
+
+/* product-img-tablet-and-desktop */
+.product-img-mobile {
+  display: block;
+}
+
+.product-img-tablet-and-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 601px) {
+  /* product-img-main */
+  .product-img-main-mobile {
+    display: none;
+  }
+  .product-img-main-tablet {
+    display: block;
+  }
+  .product-img-main-desktop {
+    display: none;
+  }
+
+  /* product-img-first */
+  .product-img-first-mobile {
+    display: none;
+  }
+  .product-img-first-tablet {
+    display: block;
+  }
+  .product-img-first-desktop {
+    display: none;
+  }
+
+  /* product-img-second */
+  .product-img-second-mobile {
+    display: none;
+  }
+  .product-img-second-tablet {
+    display: block;
+  }
+  .product-img-second-desktop {
+    display: none;
+  }
+
+  /* product-img-third */
+  .product-img-third-mobile {
+    display: none;
+  }
+  .product-img-third-tablet {
+    display: block;
+  }
+  .product-img-third-desktop {
+    display: none;
+  }
+
+  /* product-content-wrapper */
+  .product-content-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .product-img-wrapper,
+  .product-info {
+    width: 50%;
+  }
+
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  /* in-the-box */
+  .in-the-box {
+    display: flex;
+  }
+
+  .in-the-box div {
+    width: 50%;
+  }
+
+  /* product-img-tablet-and-desktop */
+  .product-img-mobile {
+    display: none;
+  }
+
+  .product-img-tablet-and-desktop {
+    display: flex;
+  }
+
+  .product-col-1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .product-col-2 {
+    width: 60%;
+    padding-left: 3%;
+  }
+
+  .product-img-first-tablet,
+  .product-img-second-tablet {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .product-img-third-tablet {
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* product */
+  .product {
+    padding: 0 10%;
+  }
+
+  /* product-img-main */
+  .product-img-main-mobile {
+    display: none;
+  }
+  .product-img-main-tablet {
+    display: none;
+  }
+  .product-img-main-desktop {
+    display: block;
+  }
+
+  /* product-img-first */
+  .product-img-first-mobile {
+    display: none;
+  }
+  .product-img-first-tablet {
+    display: none;
+  }
+  .product-img-first-desktop {
+    display: block;
+  }
+
+  /* product-img-second */
+  .product-img-second-mobile {
+    display: none;
+  }
+  .product-img-second-tablet {
+    display: none;
+  }
+  .product-img-second-desktop {
+    display: block;
+  }
+
+  /* product-img-third */
+  .product-img-third-mobile {
+    display: none;
+  }
+  .product-img-third-tablet {
+    display: none;
+  }
+  .product-img-third-desktop {
+    display: block;
+  }
+}

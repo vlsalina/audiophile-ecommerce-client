@@ -1,0 +1,10 @@
+.black {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.black:hover {
+  background-color: #979797;
+  border: 1px solid #979797;
+}

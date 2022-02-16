@@ -1,0 +1,18 @@
+.selector {
+  display: flex;
+  width: 296px;
+  justify-content: space-between;
+}
+
+.selector-quantity {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.selector-btn {
+  border: none;
+  background-color: transparent;
+  opacity: 0.25;
+}

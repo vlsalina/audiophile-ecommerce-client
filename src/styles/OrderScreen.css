@@ -1,0 +1,159 @@
+.order {
+  padding: 1rem;
+}
+
+.order main {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.order-form {
+  margin-bottom: 32px;
+}
+
+.order-summary {
+  width: 100%;
+}
+
+.order-summary ul {
+  width: 100%;
+}
+
+.order-preview {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.order-details div p {
+  margin: 0;
+}
+
+.order-preview-quantity {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.order-preview-price,
+.order-preview-quantity {
+  color: #000;
+  opacity: 0.5;
+}
+
+.formdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  padding: 0 0 5px 0;
+  margin-bottom: 24px;
+}
+
+.formdata input {
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 56px;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.formdata-radio {
+  border: 1px solid #cfcfcf;
+  width: 100%;
+  height: 56px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.order-status {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 25px;
+  /* identical to box height, or 192% */
+
+  letter-spacing: 0.928571px;
+  text-transform: uppercase;
+
+  color: #d87d4a;
+}
+
+.order-checkout {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.order-preview-content {
+  width: 33.33%;
+}
+
+.order-preview-content img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.order-preview-info {
+  padding: 0 2rem;
+}
+
+.order-details-desc {
+  color: #000;
+  opacity: 0.5;
+}
+
+.order-details-total {
+  font-weight: bold;
+  color: #d87d4a;
+}
+
+.order-pay {
+  margin: 32px 0 129px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .order {
+    padding: 0 10%;
+  }
+
+  .order-responsive-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .order-responsive-item {
+    width: 49%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .order-responsive {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .order-responsive-large {
+    width: 50%;
+  }
+
+  .order-responsive-desktop {
+    width: 45%;
+  }
+}
