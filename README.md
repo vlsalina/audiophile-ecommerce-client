@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](https://raw.githubusercontent.com/vlsalina/audiophile-ecommerce-client/refactor-removing-redundancy-url-paths/public/assets/demo/Desktop%20-%20Home.png?token=GHSAT0AAAAAABOUTRHX7AG4ZTHE5RCDCZASYQNRUOA)
+![screenshot](https://res.cloudinary.com/do6crtyly/image/upload/v1645056575/audiophile/Desktop_-_Home_gqe1r4.png)
 
 ### Links
 
