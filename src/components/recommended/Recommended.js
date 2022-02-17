@@ -26,7 +26,7 @@ const Recommended = ({ recommended, navigate }) => {
   const toProductPage = (slug) => {
     if (products) {
       let item = data.find((x) => x.slug === slug);
-      window.location.href = `${process.env.REACT_APP_CLIENT_URL}/product/${item.id}`;
+      window.location.href = `/product/${item.id}`;
     } else {
       navigate("/");
     }

@@ -8,7 +8,6 @@ import ProductScreen from "./screens/ProductScreen";
 import CategoryScreen from "./screens/CategoryScreen";
 import LoadingBox from "./components/loading/LoadingBox";
 import SuccessScreen from "./screens/SuccessScreen";
-import Test from "./screens/Test";
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
             <Route path="/category/:zone" element={<CategoryScreen />} />
             <Route path="/loading" element={<LoadingBox />} />
             <Route path="/checkout" element={<OrderScreen />} />
-            <Route path="/test" element={<Test />} />
             <Route path="/success" element={<SuccessScreen />} />
           </Routes>
         </Layout>
