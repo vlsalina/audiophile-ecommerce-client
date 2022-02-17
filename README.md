@@ -8,13 +8,12 @@ This is a solution to the [Audiophile e-commerce website challenge on Frontend M
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+- [How to use](#how-to-use)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -90,7 +89,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 #### MongoDB
 
-I felt utilizing MongoDB for this project would really help introduce me to the concepts of not only the backend layer, but the database layer when it came to web development as a whole. MongoDB uses JSON-like documents with optional schemas. And so, it was vital to design the structure of the documents in such a way that they would "lend themselves" to the frontend layer. Or in other words, make it as seamless as possible to get the desired data from the client side.
+I felt utilizing MongoDB for this project would really help introduce me to the concepts of the database as well as the backend layer when it came to web development as a whole. MongoDB uses JSON-like documents with optional schemas. And so, it was vital to design the structure of the documents in such a way that they would "lend themselves" to the frontend layer. Or in other words, make it as seamless as possible to get the desired data from the client side.
 
 ```javascript
 {
@@ -112,11 +111,11 @@ I felt utilizing MongoDB for this project would really help introduce me to the 
 }
 ```
 
-The code block above is an example of a schema. Having experience with Javascript objects, it was fairly straight forward to construct one.
+The code block above is an example of a schema. Having experience with Javascript objects already, it was fairly straight forward to construct one.
 
 #### Mongoose
 
-After gaining a better understanding of how MongoDB worked, it was still cumbersome trying to validate input fields, and querying was also too verbose and overly complex, and so I felt the need to also learn Mongoose. Mongoose provides a straight-forward, schema-based solution to model your application data.
+After gaining a better understanding of how MongoDB worked, it was still cumbersome trying to validate input fields, and querying was still verbose and overly complex, and so I felt the need to also learn Mongoose. Mongoose provides a straight-forward, schema-based solution to model your application data.
 
 Applying input validation and modeling was a breeze with Mongoose:
 
@@ -139,7 +138,7 @@ await Cars.updateMany({}, { $set: { make: "Honda" } });
 
 #### Redux
 
-Having experience with React and knowing Hooks such as useState and useContext, I was under the impression I could simply write state logic at the component level and manage data that way for the entire app. Ultimately though, I learned that such a design structure would not yield itself very well for scalability later on. Having multiple components dependent on the same data meant keeping everything in sync at all times, which proved to be incredibly difficult with React hooks alone.
+Having experience with React and knowing Hooks such as useState and useContext, I was under the impression I could simply write state logic at the component level and manage data that way for the entire app. Ultimately though, I learned that such a design structure would not yield itself very well for scalability later on. Having multiple components dependent on the same data meant keeping everything in sync at all times, which proved to be difficult with React hooks alone.
 
 Redux provided a "one source of truth" way of resolving these issues. It is is an open-source JavaScript library for managing and centralizing application state. While there was somewhat of a learning curve at first, the benefit of having the app's state all in one place and easily accessible throughout the entire app was a big game changer.
 
