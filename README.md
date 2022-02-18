@@ -76,15 +76,20 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ### Built with
 
-- [MongoDB](https://docs.atlas.mongodb.com/?_ga=2.232882589.280966400.1645011051-1449492850.1643781029&_gac=1.85307883.1645011051.Cj0KCQiA3rKQBhCNARIsACUEW_aKKbGxWOFIwI7gHR4p4H_IpqU8Grinl0oF42j731_qkWfAU5s4BE8aAhneEALw_wcB) - cloud database
-- [ExpressJS](https://expressjs.com/) - Node.js framework
+Frontend:
+
 - [React](https://reactjs.org/) - JS library
-- [Mongoose](https://mongoosejs.com/docs/guide.html) - MongoDB object modeling library
 - [Redux](https://redux.js.org/) - Predictable state container for JS apps
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+Backend:
+
+- [MongoDB](https://docs.atlas.mongodb.com/?_ga=2.232882589.280966400.1645011051-1449492850.1643781029&_gac=1.85307883.1645011051.Cj0KCQiA3rKQBhCNARIsACUEW_aKKbGxWOFIwI7gHR4p4H_IpqU8Grinl0oF42j731_qkWfAU5s4BE8aAhneEALw_wcB) - cloud database
+- [ExpressJS](https://expressjs.com/) - Node.js framework
+- [Mongoose](https://mongoosejs.com/docs/guide.html) - MongoDB object modeling library
 
 ### What I learned
 
