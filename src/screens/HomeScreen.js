@@ -8,6 +8,7 @@ import Zone from "../components/zone/Zone";
 import LoadingBox from "../components/loading/LoadingBox";
 import { homeImages } from "../data/images";
 import About from "../components/about/About";
+import Metadata from "../components/Metadata/Metadata";
 
 const featured = {
   yx1ep: {
@@ -65,6 +66,10 @@ const HomeScreen = () => {
         <LoadingBox />
       ) : (
         <>
+          <Metadata
+            title={`Audiophile Home Page`}
+            description={`Audiophile - Experience Cutting-Edge Audio Technology`}
+          />
           <div className="home-new">
             <img
               className="hero hero-mobile"

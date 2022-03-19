@@ -7,6 +7,7 @@ import Button1 from "../buttons/button1/Button1";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { clearCart } from "../actions/actions";
+import Metadata from "../components/Metadata/Metadata";
 
 const SuccessScreen = () => {
   const navigate = useNavigate();
@@ -41,6 +42,10 @@ const SuccessScreen = () => {
 
   return (
     <div id="success" className="success">
+      <Metadata
+        title={`Order Successfully Made!`}
+        description={`Order Success Screen`}
+      />
       <div className="success-content">
         <div>
           <BsCheckCircleFill size="5rem" color={"#D87D4A"} />

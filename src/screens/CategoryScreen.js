@@ -3,6 +3,7 @@ import Category from "../components/category/Category";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import LoadingBox from "../components/loading/LoadingBox";
+import Metadata from "../components/Metadata/Metadata";
 
 const CategoryScreen = () => {
   const { zone } = useParams();
@@ -40,6 +41,10 @@ const CategoryScreen = () => {
 
   return (
     <div className="headphones">
+      <Metadata
+        title={`Audiophile - ${zone[0].toUpperCase() + zone.slice(1)}`}
+        description={`${zone[0].toUpperCase()}\'s`}
+      />
       {!dataset && <LoadingBox />}
       {dataset && <Category data={dataset} />}
     </div>
